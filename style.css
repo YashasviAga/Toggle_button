@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
 }
-body{
+.light{
+    transition: 0.2s;
     background-color: grey;
 }
 .main{
     text-align: center;
     margin: 200px auto;
+    transition: 0.2s;
 }
 .theme_light{
     margin: 50px 0;
     font-size: 40px;
     font-weight: 900;
+    transition: 0.2s;
 }
 .toggle_light{
     border-radius: 50px;
@@ -20,6 +23,7 @@ body{
     width: 60px;
     height: 35px; 
     border: none;
+    transition: 0.2s;
 }
 .toggle_dark{
     border-radius: 50px;
@@ -27,6 +31,7 @@ body{
     width: 60px;
     height: 35px; 
     border: none;
+    transition: 0.2s;
 }
 .left_light{
     font-size: 15px;
@@ -41,12 +46,14 @@ body{
 }
 .dark{
     background-color: rgb(21, 21, 21);
+    transition: 0.2s;
 }
 .theme_dark{
     color: rgb(237, 237, 237);
     margin: 50px 0;
     font-size: 40px;
     font-weight: 900;
+    transition: 0.2s;
 }
 .right_dark{
     font-size: 15px;
